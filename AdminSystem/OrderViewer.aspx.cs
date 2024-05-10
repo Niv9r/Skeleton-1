@@ -26,7 +26,7 @@ namespace AdminSystem.Order
             var order = _orderManager.GetOrderByID(orderID);
             txtOrderID.Text = order.OrderID.ToString();
             txtCustomerID.Text = order.CustomerID.ToString();
-            txtOrderDate.Text = order.OrderDate.ToString("yyyy-MM-dd");
+            txtOrderDate.Text = order.OrderDate.ToString("DD-MM-YYYY");
             txtStatus.Text = order.Status;
             txtTotalAmount.Text = order.TotalAmount.ToString("0.00");
             chkOrderStatus.Checked = order.OrderStatus;
