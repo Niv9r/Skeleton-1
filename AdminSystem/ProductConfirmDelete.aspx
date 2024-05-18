@@ -17,7 +17,7 @@
         <asp:Label ID="lblPrice" runat="server" Text="Price:" AssociatedControlID="txtPrice"></asp:Label>
         <asp:TextBox ID="txtPrice" runat="server" TextMode="Number"></asp:TextBox>
         <br /><br />
-        <asp:Label ID="lblStockQuantity" runat="server" Text="Stock Quantity:" AssociatedControlID="txtStockQuantity"></asp:TextBox>
+        <asp:Label ID="lblStockQuantity" runat="server" Text="Stock Quantity:" AssociatedControlID="txtStockQuantity"></asp:Label>
         <asp:TextBox ID="txtStockQuantity" runat="server" TextMode="Number"></asp:TextBox>
         <br /><br />
         <asp:Label ID="lblBrand" runat="server" Text="Brand:" AssociatedControlID="txtBrand"></asp:Label>
