@@ -8,7 +8,7 @@
 <body>
     <form id="form1" runat="server">
         <h2>Confirm Customer Deletion</h2>
-        <asp:Label ID="lblCustomerID" runat="server" Text="Customer ID:" AssociatedControlID="txtCustomerID"></asp:TextBox>
+        <asp:Label ID="lblCustomerID" runat="server" Text="Customer ID:" AssociatedControlID="txtCustomerID"></asp:Label>
         <asp:TextBox ID="txtCustomerID" runat="server" ReadOnly="true"></asp:TextBox>
         <br /><br />
         <asp:Button ID="btnDelete" runat="server" Text="Delete" OnClick="BtnDelete_Click" />
