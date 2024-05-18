@@ -11,19 +11,19 @@
         <asp:Label ID="lblProductID" runat="server" Text="Product ID:" AssociatedControlID="txtProductID"></asp:Label>
         <asp:TextBox ID="txtProductID" runat="server" ReadOnly="true"></asp:TextBox>
         <br /><br />
-        <asp:Label ID="lblProductName" runat="server" Text="Product Name:" AssociatedControlID="txtProductName"></asp:TextBox>
+        <asp:Label ID="lblProductName" runat="server" Text="Product Name:" AssociatedControlID="txtProductName"></asp:Label>
         <asp:TextBox ID="txtProductName" runat="server" ReadOnly="true"></asp:TextBox>
         <br /><br />
-        <asp:Label ID="lblCategory" runat="server" Text="Category:" AssociatedControlID="txtCategory"></asp:TextBox>
+        <asp:Label ID="lblCategory" runat="server" Text="Category:" AssociatedControlID="txtCategory"></asp:Label>
         <asp:TextBox ID="txtCategory" runat="server" ReadOnly="true"></asp:TextBox>
         <br /><br />
-        <asp:Label ID="lblPrice" runat="server" Text="Price:" AssociatedControlID="txtPrice"></asp:TextBox>
+        <asp:Label ID="lblPrice" runat="server" Text="Price:" AssociatedControlID="txtPrice"></asp:Label>
         <asp:TextBox ID="txtPrice" runat="server" ReadOnly="true"></asp:TextBox>
         <br /><br />
-        <asp:Label ID="lblStockQuantity" runat="server" Text="Stock Quantity:" AssociatedControlID="txtStockQuantity"></asp:TextBox>
+        <asp:Label ID="lblStockQuantity" runat="server" Text="Stock Quantity:" AssociatedControlID="txtStockQuantity"></asp:Label>
         <asp:TextBox ID="txtStockQuantity" runat="server" ReadOnly="true"></asp:TextBox>
         <br /><br />
-        <asp:Label ID="lblBrand" runat="server" Text="Brand:" AssociatedControlID="txtBrand"></asp:TextBox>
+        <asp:Label ID="lblBrand" runat="server" Text="Brand:" AssociatedControlID="txtBrand"></asp:Label>
         <asp:TextBox ID="txtBrand" runat="server" ReadOnly="true"></asp:TextBox>
     </form>
 </body>
